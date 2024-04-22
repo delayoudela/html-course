@@ -15,13 +15,13 @@
     background-color: aliceblue;
 }
 
-ul li:first-child {
+ul li:nth-child(2n-1) {
     color: red;
 }
 
-ul li:last-child {
+/* p:not(.sectionText) {
     color: red;
-}
+} */
 
 .link {
     color: #4262FF;
