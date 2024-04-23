@@ -1,3 +1,7 @@
+*::selection {
+    background-color: #95dde9;
+}
+
 #heroButton {
     background-color: #4262FF;
     color: #FFFFFF;
@@ -13,6 +17,16 @@
 
 .heroForm input:focus {
     background-color: aliceblue;
+}
+
+a::after {
+    color: red;
+    content: " ! ";
+}
+
+a::before {
+    color: red;
+    content: " ! ";
 }
 
 ul li:nth-child(2n-1) {
