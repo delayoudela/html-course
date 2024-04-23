@@ -11,8 +11,8 @@
     background-color: #122db6;
 }
 
-button {
-    color: #00f3c6 !important;
+body {
+    color: blueviolet;
 }
 
 #heroButton:active {
