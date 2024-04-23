@@ -11,8 +11,8 @@
     background-color: #122db6;
 }
 
-#heroButton.test.test2 {
-    background-color: pink;
+button {
+    color: #00f3c6 !important;
 }
 
 #heroButton:active {
