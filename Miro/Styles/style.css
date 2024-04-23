@@ -11,6 +11,10 @@
     background-color: #122db6;
 }
 
+#heroButton.test.test2 {
+    background-color: pink;
+}
+
 #heroButton:active {
     background-color: #071766;
 }
@@ -83,4 +87,8 @@ nav ul {
 
 .experimentBlue {
     background: blue;
+}
+
+div.experimentBlue {
+    background: #050038;
 }
