@@ -19,24 +19,6 @@
     background-color: aliceblue;
 }
 
-/* a::after {
-    color: red;
-    content: " ! ";
-}
-
-a::before {
-    color: red;
-    content: " ! ";
-}
-
-ul li:nth-child(2n-1) {
-    color: red;
-} */
-
-/* p:not(.sectionText) {
-    color: red;
-} */
-
 .link {
     color: #4262FF;
     text-decoration: underline;
@@ -89,7 +71,6 @@ nav ul {
 
 .sectionList {
     list-style: none;
-    /* list-style: url('../images/check.svg'); */
 }
 
 .sectionList li::marker {
