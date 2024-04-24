@@ -1,31 +1,17 @@
+body {
+    margin: 0;
+}
+
 *::selection {
     background-color: #95dde9;
 }
 
-#heroButton {
-    background-color: #4262FF;
-    color: #FFFFFF;
+h1 {
+    margin: 0 0 17px;
 }
 
-#heroButton:hover {
-    background-color: #122db6;
-}
-
-#heroButton:active {
-    background-color: #071766;
-}
-
-.heroForm input:focus {
-    background-color: aliceblue;
-}
-
-.link {
-    color: #4262FF;
-    text-decoration: underline;
-}
-
-.link:hover {
-    color: #122db6;
+h2 {
+    margin: 0 0 19px;
 }
 
 h1,
@@ -42,13 +28,7 @@ p {
     line-height: 24px;
 }
 
-.heroText {
-    color: #050038;
-}
 
-.sectionText {
-    color: #696688;
-}
 
 header a {
     font-weight: 400;
@@ -58,15 +38,85 @@ header a {
     text-decoration: none;
 }
 
+nav {
+    padding: 33px 50px;
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background: #050038;
+    padding: 47px 40px;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer div:first-child {
+    color: #FFFFFF;
+}
+
+.heroText {
+    color: #050038;
+    margin: 0 0 55px;
+}
+
+#heroButton {
+    background-color: #4262FF;
+    color: #FFFFFF;
+    height: 50px;
+    border: 1px solid #4262FF;
+    border-radius: 32px;
+    padding: 10px 20px;
+}
+
+#heroButton:hover {
+    background-color: #122db6;
+}
+
+#heroButton:active {
+    background-color: #071766;
+}
+
+.heroForm input {
+    border-radius: 32px;
+    border: 1px solid #9B99AF;
+    height: 38px;
+    padding: 5px 10px;
+}
+
+.heroForm input:focus {
+    background-color: aliceblue;
+}
+
+.link {
+    color: #4262FF;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #122db6;
+}
+
+.sectionText {
+    color: #696688;
+    margin: 0 0 40px;
+}
+
 .heroForm+p {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #050038;
-}
-
-nav ul {
-    list-style: none;
+    margin: 8px 0 52px 0;
 }
 
 .sectionList {
@@ -75,14 +125,4 @@ nav ul {
 
 .sectionList li::marker {
     content: url('../images/check.svg');
-}
-
-.experimentBlue {
-    background: #071766;
-    width: 400px;
-    height: 400px;
-    color: #FFFFFF;
-    padding: 10px 20px 50px 30px;
-    border: 5px solid #696688;
-    margin: 10px auto;
 }
