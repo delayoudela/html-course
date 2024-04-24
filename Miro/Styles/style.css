@@ -11,10 +11,6 @@
     background-color: #122db6;
 }
 
-body {
-    color: blueviolet;
-}
-
 #heroButton:active {
     background-color: #071766;
 }
@@ -81,14 +77,9 @@ nav ul {
     content: url('../images/check.svg');
 }
 
-.experimentRed {
-    background: red;
-}
-
 .experimentBlue {
     background: blue;
-}
-
-div.experimentBlue {
-    background: #050038;
+    width: 200px;
+    height: 400px;
+    color: #FFFFFF;
 }
