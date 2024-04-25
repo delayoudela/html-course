@@ -130,3 +130,49 @@ footer div:first-child {
 #heroImage {
     float: right;
 }
+
+.divRed {
+    background: red;
+    display: inline;
+}
+
+.divBlue {
+    background: blue;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.divGreen {
+    background: green;
+    display: inline;
+}
+
+.spanRed {
+    background: red;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.spanBlue {
+    background: blue;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.spanGreen {
+    background: green;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
