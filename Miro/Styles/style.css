@@ -131,48 +131,61 @@ footer div:first-child {
     float: right;
 }
 
-.divRed {
-    background: red;
-    display: inline;
-}
-
-.divBlue {
-    background: blue;
-    display: inline-block;
-    padding: 20px;
-    margin: 20px;
-    width: 200px;
-    height: 200px;
-}
-
-.divGreen {
-    background: green;
-    display: inline;
-}
-
-.spanRed {
+.cl1 {
     background: red;
     display: inline-block;
     padding: 20px;
     margin: 20px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
-.spanBlue {
+.cl2 {
     background: blue;
     display: inline-block;
     padding: 20px;
     margin: 20px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
-.spanGreen {
+.cl3 {
     background: green;
     display: inline-block;
     padding: 20px;
     margin: 20px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+}
+
+.static .cl2 {
+    position: static;
+}
+
+.relative .cl2 {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.absolute {
+    position: relative;
+}
+
+.absolute .cl2 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.fixed .cl2 {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.sticky .cl2 {
+    position: sticky;
+    top: 50px;
+    left: 50px;
 }
