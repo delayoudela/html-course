@@ -126,3 +126,7 @@ footer div:first-child {
 .sectionList li::marker {
     content: url('../images/check.svg');
 }
+
+#heroImage {
+    float: right;
+}
