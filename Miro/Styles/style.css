@@ -8,6 +8,7 @@ body {
 
 h1 {
     margin: 0 0 17px;
+    text-align: left;
 }
 
 h2 {
@@ -125,4 +126,67 @@ footer div:first-child {
 
 .sectionList li::marker {
     content: url('../images/check.svg');
+}
+
+#heroImage {
+    float: right;
+}
+
+.cl1 {
+    background: red;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.cl2 {
+    background: blue;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.cl3 {
+    background: green;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.static .cl2 {
+    position: static;
+}
+
+.relative .cl2 {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.absolute {
+    position: relative;
+}
+
+.absolute .cl2 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.fixed .cl2 {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.sticky .cl2 {
+    position: sticky;
+    top: 50px;
+    left: 50px;
 }
