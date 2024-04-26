@@ -140,3 +140,12 @@ h1 {
 .heroText {
     font-size: 2em;
 }
+
+ul>li {
+    font-size: 2rem;
+    margin-bottom: 3em;
+}
+
+html {
+    font-size: 10px;
+}
