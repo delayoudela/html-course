@@ -141,11 +141,7 @@ h1 {
     font-size: 2em;
 }
 
-ul>li {
-    font-size: 2rem;
-    margin-bottom: 3em;
-}
-
-html {
-    font-size: 10px;
+footer {
+    height: 100vh;
+    width: 100vw;
 }
