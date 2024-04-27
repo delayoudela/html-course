@@ -73,10 +73,11 @@ footer div:first-child {
 #heroButton {
     background-color: #4262FF;
     color: #FFFFFF;
-    height: 50px;
+    height: 3em;
     border: 1px solid #4262FF;
-    border-radius: 32px;
-    padding: 10px 20px;
+    border-radius: 2em;
+    padding: 1em 2em;
+    font-size: 1em;
 }
 
 #heroButton:hover {
@@ -128,65 +129,19 @@ footer div:first-child {
     content: url('../images/check.svg');
 }
 
-#heroImage {
-    float: right;
+#hero {
+    font-size: 16px;
 }
 
-.cl1 {
-    background: red;
-    display: inline-block;
-    padding: 20px;
-    margin: 20px;
-    width: 100px;
-    height: 100px;
+h1 {
+    font-size: 3em;
 }
 
-.cl2 {
-    background: blue;
-    display: inline-block;
-    padding: 20px;
-    margin: 20px;
-    width: 100px;
-    height: 100px;
+.heroText {
+    font-size: 2em;
 }
 
-.cl3 {
-    background: green;
-    display: inline-block;
-    padding: 20px;
-    margin: 20px;
-    width: 100px;
-    height: 100px;
-}
-
-.static .cl2 {
-    position: static;
-}
-
-.relative .cl2 {
-    position: relative;
-    top: 50px;
-    left: 50px;
-}
-
-.absolute {
-    position: relative;
-}
-
-.absolute .cl2 {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-}
-
-.fixed .cl2 {
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
-}
-
-.sticky .cl2 {
-    position: sticky;
-    top: 50px;
-    left: 50px;
+footer {
+    height: 100vh;
+    width: 100vw;
 }
