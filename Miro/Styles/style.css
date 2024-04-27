@@ -78,10 +78,12 @@ footer div:first-child {
     border-radius: 2em;
     padding: 1em 2em;
     font-size: 1em;
+    transition: background-color 1s 1s, border-radius 2s 1s;
 }
 
 #heroButton:hover {
     background-color: #122db6;
+    border-radius: 50%;
 }
 
 #heroButton:active {
@@ -131,17 +133,4 @@ footer div:first-child {
 
 #hero {
     font-size: 16px;
-}
-
-h1 {
-    font-size: 3em;
-}
-
-.heroText {
-    font-size: 2em;
-}
-
-footer {
-    height: 100vh;
-    width: 100vw;
 }
