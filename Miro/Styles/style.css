@@ -134,3 +134,36 @@ footer div:first-child {
 #hero {
     font-size: 16px;
 }
+
+.exp div {
+    width: 200px;
+    height: 200px;
+    background-color: #050038;
+    margin: 10px;
+    transition: margin-left 2s;
+}
+
+.exp div:nth-child(1) {
+    margin-left: 400px;
+    transition-timing-function: ease-out;
+}
+
+.exp div:nth-child(2) {
+    margin-left: 400px;
+    transition-timing-function: ease-in;
+}
+
+.exp div:nth-child(3) {
+    margin-left: 400px;
+    transition-timing-function: linear;
+}
+
+.exp div:nth-child(4) {
+    margin-left: 400px;
+    transition-timing-function: steps(6, end);
+}
+
+.exp div:nth-child(5) {
+    margin-left: 400px;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
