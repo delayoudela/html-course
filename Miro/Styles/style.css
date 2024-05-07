@@ -18,7 +18,8 @@ h2 {
 h1,
 h2 {
     font-weight: 400;
-    font-size: 48px;
+    /* font-size: 48px; */
+    font-size: 4vw;
     line-height: 56px;
     color: #050038;
 }
@@ -171,17 +172,5 @@ footer div:first-child {
 
     100% {
         transform: translateX(0%) translateY(0%);
-    }
-}
-
-@media (min-width: 500px) {
-    h1 {
-        color: red;
-    }
-}
-
-@media (max-width: 500px) {
-    h2 {
-        color: green;
     }
 }
