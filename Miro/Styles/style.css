@@ -18,8 +18,7 @@ h2 {
 h1,
 h2 {
     font-weight: 400;
-    /* font-size: 48px; */
-    font-size: max(4vw, 48px);
+    font-size: 48px;
     line-height: 56px;
     color: #050038;
 }
@@ -137,7 +136,7 @@ footer div:first-child {
 }
 
 .exp div {
-    width: max(20%, 200px);
+    width: clamp(200px, 20%, 600px);
     height: 200px;
     background-color: #050038;
     margin: 10px;
