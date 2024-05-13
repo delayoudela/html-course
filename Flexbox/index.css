@@ -8,6 +8,9 @@ body {
 .container {
     border: 10px solid #6c38cc;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .item {
@@ -16,14 +19,9 @@ body {
     text-align: center;
     padding: 10px;
     flex-basis: 300px;
-}
-
-.item1 {
     flex-grow: 1;
-    flex-shrink: 1;
 }
 
-.item2 {
-    flex-grow: 10;
-    flex-shrink: 10;
+.item4 {
+    flex-grow: 1500;
 }
