@@ -13,9 +13,8 @@ body {
     border: 10px solid #6c38cc;
     display: flex;
     height: 100vh;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-around;
+    align-items: flex-start;
+
 }
 
 .item {
@@ -23,5 +22,8 @@ body {
     border: 1px solid #6c38cc;
     text-align: center;
     padding: 10px;
-    width: calc(100% / 3);
+}
+
+.item2 {
+    align-self: center;
 }
