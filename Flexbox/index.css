@@ -13,8 +13,9 @@ body {
     border: 10px solid #6c38cc;
     display: flex;
     height: 100vh;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: baseline;
+    align-content: space-around;
 }
 
 .item {
@@ -22,12 +23,5 @@ body {
     border: 1px solid #6c38cc;
     text-align: center;
     padding: 10px;
-}
-
-.item4 {
-    font-size: 40px;
-}
-
-.item8 {
-    font-size: 120px;
+    width: calc(100% / 3);
 }
