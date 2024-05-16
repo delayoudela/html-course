@@ -1,4 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    font-family: "Roboto", sans-serif;
     margin: 0;
 }
 
@@ -12,7 +17,7 @@ h1 {
 }
 
 h2 {
-    margin: 0 0 19px;
+    margin: 60px 0 19px;
 }
 
 h1,
@@ -23,13 +28,23 @@ h2 {
     color: #050038;
 }
 
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    margin-bottom: 140px;
+}
+
 p {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
 }
 
-
+header {
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 60px;
+}
 
 header a {
     font-weight: 400;
@@ -41,19 +56,31 @@ header a {
 
 nav {
     padding: 33px 50px;
-    border-bottom: 1px solid #F0F0F0;
     margin-bottom: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    gap: 34px;
 }
 
 footer {
     background: #050038;
     padding: 47px 40px;
+    color: white;
+}
+
+footer>div {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
 }
 
 footer a {
@@ -83,17 +110,22 @@ footer div:first-child {
 
 #heroButton:hover {
     background-color: #122db6;
-    border-radius: 50%;
 }
 
 #heroButton:active {
     background-color: #071766;
 }
 
+.heroForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .heroForm input {
     border-radius: 32px;
     border: 1px solid #9B99AF;
-    height: 38px;
+    height: 48px;
     padding: 5px 10px;
 }
 
@@ -123,6 +155,12 @@ footer div:first-child {
     margin: 8px 0 52px 0;
 }
 
+.heroLogos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .sectionList {
     list-style: none;
 }
@@ -133,13 +171,15 @@ footer div:first-child {
 
 #hero {
     font-size: 16px;
+    display: flex;
+    gap: 65px;
 }
 
-.exp div {
-    width: clamp(200px, 20%, 600px);
-    height: 200px;
-    background-color: #050038;
-    margin: 10px;
-    color: #FFFFFF;
-    font-size: 24px;
+.section {
+    display: flex;
+    gap: 115px;
+}
+
+.section-reverse {
+    flex-direction: row-reverse;
 }
