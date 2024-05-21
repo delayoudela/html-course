@@ -15,7 +15,7 @@ html {}
 body {
     background: var(--color-bg);
     margin: 0;
-    font-family: 'Fira Sans';
+    font-family: "Fira Sans", sans-serif;
     font-size: normal;
     font-weight: 400;
 }
