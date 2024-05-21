@@ -1,40 +1,25 @@
 :root {
     --color-primary: #6C38CC;
-    --space-10:
+    --color-text: #FAFAFA;
+    --color-link-hover: #AFB2BF;
+    --color-bg: #16171D;
+    --color-bg-medium: #1E1F29;
+    --color-bg-light: #2E2D3D;
+    --color-stroke: #4D5064;
+
+    --border-8: 8px;
 }
+
+html {}
 
 body {
-    background: #16171D;
-}
-
-.section-header {}
-
-.section-header__top {}
-
-.section-header__h2 {}
-
-.button {
-    padding: 16px 32px;
+    background: var(--color-bg);
+    margin: 0;
+    font-family: 'Fira Sans';
+    font-size: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 120%;
-    border-radius: 10px;
-    background: none;
-    border: none;
-    margin-bottom: var(--space-10);
 }
 
-.button_primary {
-    background: var(--color-primary, red);
-    /* background: #6C38CC; */
-    color: #FAFAFA;
-}
-
-.button_ghost {
-    border: 1px solid #4D5064;
-    color: #FAFAFA;
-}
-
-.hero__button {
-    margin-top: 32px;
+a {
+    text-decoration: none;
 }
