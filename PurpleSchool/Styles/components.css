@@ -23,6 +23,7 @@
     border: none;
     cursor: pointer;
     display: inline-block;
+    text-align: center;
 }
 
 .button_primary {
@@ -171,4 +172,20 @@
     font-size: 16px;
     line-height: 150%;
     color: var(--color-text);
+}
+
+@media (max-width: 860px) {
+    .post {
+        flex-direction: column;
+    }
+
+    .headling__bottom {
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 120%;
+    }
+
+    .post__header {
+        font-size: 21px;
+    }
 }
