@@ -46,8 +46,8 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 200px 100px;
-    grid-template-rows: 200px 100px;
-    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 1fr) auto;
+    height: 600px;
+    grid-template-rows: repeat(3, 1fr);
     gap: 15px;
 }
