@@ -46,6 +46,15 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 15px;
+}
+
+.item_1 {
+    order: 1;
+    grid-column: 1 / -1;
+}
+
+.item_2 {
+    order: 3;
 }
