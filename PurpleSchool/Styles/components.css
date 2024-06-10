@@ -202,6 +202,7 @@
     padding: 8px 16px;
     background: none;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .chip:hover {
